@@ -30,7 +30,7 @@ a {
 }
 /*   SHOWCASE    */
 .seokjin {
-	background-image:url(../image/azi.jpg);
+	background-image:url(azi.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-shadow: 0 0 5px black;
