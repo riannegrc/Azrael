@@ -1,0 +1,87 @@
+body{
+	text-align:center;
+}
+a {
+	text-decoration:none;
+	font-family:century gothic;
+}
+/*   HEADER    */
+.button {
+	background: powderblue;
+	color:white;
+	padding:10px 20px;
+	border:5px salmon solid;
+	margin-bottom: 10px;
+
+}
+.button:hover {
+	background:pink;
+	color: white;
+}
+.main-menu {
+	padding:0px;
+	color:#153d6b;
+	margin:0px;
+	text-align: center;
+	list-style:none;
+	display: grid;
+	grid-gap: 60px;
+	grid-template-columns: repeat(4,1fr)
+}
+/*   SHOWCASE    */
+.seokjin {
+	background-image:url(../image/azi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px black;
+	padding: 300px;
+	margin-bottom:10px;
+}
+/*   MAIN ARTICLE    */
+.yoongi {
+	margin-bottom:10px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+}
+.mal {
+	background:#caeafc;
+	padding: 40px;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: 1fr 1fr;
+	box-shadow: 0 0 5px black;
+}
+.mal h3 {
+	font-family: broadway;
+	margin-top: 30px;
+}
+	
+.mal p {
+	font-family: century gothic;
+	margin: 40px 0 60px 0;
+}
+.sar {
+	background:#caeafc;
+	text-align: center;
+	box-shadow: 0 0 5px black;
+}
+.sar h4 {
+	font-family: broadway;
+	margin-top: 30px;
+	padding-top:80px;
+}
+.sar p {
+	font-family: century gothic;
+	margin: 40px 0 60px 0;
+	
+
+}
+/*   FOOTER   */
+.hoseok {
+	background:#c7fee4;
+	padding: 10px;
+	color:#153d6b;
+	margin-bottom:10px;
+	font-family: century gothic;
+	box-shadow: 0 0 5px black;
